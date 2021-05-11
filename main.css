@@ -5,4 +5,32 @@
 }
 .container{
     text-transform: capitalize;
+    text-align: center;
+    margin: 20px auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+li{
+    list-style: none;
+}
+.navbar{
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+.logo{
+    font-size: 30px;
+}
+.navlist ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navlist ul li{
+    margin: 0 20px;
+    font-size: 25px;
+}
+.navlist ul li:hover{
+    color:chartreuse;
+    
 }
