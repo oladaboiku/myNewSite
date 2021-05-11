@@ -13,11 +13,11 @@ li{
     list-style: none;
 }
 .navbar{
-    background-color: crimson;
+    background-color: cornsilk;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: #fff;
+    color: crimson;
 }
 .logo{
     font-size: 30px;
@@ -32,5 +32,29 @@ li{
 }
 .navlist ul li:hover{
     color:chartreuse;
-    
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./img/762-7627685_spotlight-living-room-stock.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 700px;
+    height: 950px;
+}
+ 
+.bannerText{
+    font-size: 50px;
+    margin: 60px auto;
+}
+input[type=button]{
+    padding: 25px;
+    background-color: lightsteelblue;
+    border-radius: 7px;
+    width: 150px;
+    font-size: 30px;
+
 }
